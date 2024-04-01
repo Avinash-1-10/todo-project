@@ -2,6 +2,8 @@
 
 This is a simple task manager application built using React and Redux. It allows users to add, delete, update, and check tasks.
 
+## Deployement Link: [https://todo-eight-flame-82.vercel.app](https://todo-eight-flame-82.vercel.app)
+
 ## Features
 
 - Add a new task
