@@ -31,12 +31,12 @@ This is a simple task manager application built using React and Redux. It allows
 3. Install dependencies:
 
    ```bash
-   cd task-manager-app
+   npm install
    ```
 
 4. Start the development server:
    ```bash
-   cd task-manager-app
+   npm run dev
    ```
 5. Open http://localhost:5173 to view it in the browser.
 
