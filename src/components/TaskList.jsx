@@ -11,14 +11,20 @@ const TaskList = () => {
       <div className="mt-10">
         {/* Task table */}
         <table className="w-full">
+          {/* Table header */}
           <thead className="bg-blue-500 text-white">
             <tr>
-              <th className="px-2 py-3 text-left">Check</th>
-              <th className="px-4 py-3 text-center">Task</th>
-              <th className="px-2 py-3 text-right">Actions</th>
+              <th className="px-2 py-3 text-left">Check</th>{" "}
+              {/* Checkbox column */}
+              <th className="px-4 py-3 text-start">Task</th>{" "}
+              {/* Task description column */}
+              <th className="px-2 py-3 text-right">Actions</th>{" "}
+              {/* Actions column */}
             </tr>
           </thead>
+          {/* Table body */}
           <tbody>
+            {/* Iterate over tasks array and render TaskRow component for each task */}
             {tasks.map((task) => (
               <TaskRow task={task} key={task.id} />
             ))}
